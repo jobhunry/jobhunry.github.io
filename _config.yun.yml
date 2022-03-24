@@ -1,0 +1,216 @@
+mode: auto
+
+avatar:
+  enable: true
+  url: /images/avatar.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: 😭
+    message: 不想上学
+
+post_asset_folder: true
+    
+reward:
+  enable: true
+  comment: 你的支持，我的动力！
+  methods:
+    - name: 支付宝
+      path: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6f00c918-7a62-47b5-8e8a-9578acfb171c/402b3d56-1154-430c-aa81-99aa69290d7e.png
+      color: "#00A3EE"
+      icon: icon-alipay-line
+  #  - name: QQ 支付
+   #   path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
+  #    color: "#12B7F5"
+  #    icon: icon-qq-line
+    - name: 微信支付
+      path: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6f00c918-7a62-47b5-8e8a-9578acfb171c/e74daa47-926f-4d93-b1b9-d2bfbeec03c1.png
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+
+comment:
+  candidates:
+    - waline
+    # - giscus
+ # tips:
+    #- 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/YunYouJun/yunyoujun.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
+
+
+  locale:
+    placeholder: 填写邮箱，可以收到回复通知哦～
+  requiredMeta: ["nick"]
+
+github_issues:
+  enable: false
+
+github_discussions:
+  enable: false
+
+disqusjs:
+  enable: false
+  shortname: yunyoujun
+  apikey: ouoGQCaamOKdJgyZU5DKcpFnRIg3SNzvk0nwygPtlcTRJuE68c8igvrZGW4wAJoN
+
+# https://github.com/laymonage/giscus
+giscus:
+  enable: false
+  repo: YunYouJun/yunyoujun.github.io
+  repo-id:
+  category-id:
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: light
+
+
+engine_search:
+  enable: false
+
+
+
+google_analytics:
+  enable: true
+  id: G-1LL0D86CY9
+
+google_adsense:
+  enable: true
+  client: ca-pub-2245427233262012
+
+
+
+albums:
+  enable: true
+
+girls:
+  enable: true
+
+tags:
+  动画: crimson
+  漫画: orange
+  Parcel: "#21374b"
+  学习: saddlebrown
+  MAD: crimson
+  教程: royalblue
+  笔记: dimgray
+  分享: "#0078e7"
+  随笔: mediumpurple
+  Blender: "#d04d2d"
+  Linux: "#2577b1"
+  中传: "#ccb44b"
+  部落: "#DD306A"
+  科幻: midnightblue
+  蚂蚁森林: "#54a892"
+
+categories:
+  云游的小视频: "#FB7299"
+
+#pages:
+#  - name: 我的小伙伴们
+#    url: /links/
+#    icon: icon-genderless-line
+#    color: dodgerblue
+#  - name: 喜欢的女孩子
+#    url: /girls/
+#    icon: icon-women-line
+#    color: hotpink
+
+menu:
+  custom:
+    title: 留言板
+    path: /about/#comment
+    icon: icon-clipboard-line
+
+cursor:
+  enable: true
+
+baidu_push: true
+
+google_tagmanager:
+  enable: true
+  id: GTM-M9KWR9L
+
+banner:
+  enable: true
+  title: 科技伴随生活
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+say:
+  api: https://el-bot-api.vercel.app/api/words/young
+  hitokoto:
+    enable: false
+
+social:
+  - name: RSS
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    link: /atom.xml # config.feed.path
+    icon: icon-rss-line
+    color: orange
+  - name: QQ 群 
+    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+    link: https://qm.qq.com/cgi-bin/qm/qr?k=r1KjcVM58n1gL8Tmr0o-s_IZG9F0R21s&jump_from=webapi
+    icon: icon-qq-line
+    color: "#12B7F5"
+ # - name: GitHub
+ #   link: https://github.com/YunYouJun
+ #   icon: icon-github-line
+ #   color: "#6e5494"
+ # - name: 微博
+ #   link: https://weibo.com/jizhideyunyoujun
+ #   icon: icon-weibo-line
+ #   color: "#E6162D"
+ # - name: 豆瓣
+ #   link: https://www.douban.com/people/yunyoujun/
+ #   icon: icon-douban-line
+ #   color: "#007722"
+ # - name: 网易云音乐
+ #   link: https://music.163.com/#/user/home?id=247102977
+ #   icon: icon-netease-cloud-music-line
+ #   color: "#C20C0C"
+ # - name: 知乎
+ #   link: https://www.zhihu.com/people/yunyoujun/
+ #   icon: icon-zhihu-line
+ #   color: "#0084FF"
+ # - name: 哔哩哔哩
+ #   link: https://space.bilibili.com/1579790
+ #   icon: icon-bilibili-line
+ #   color: "#FF8EB3"
+  - name: 微信公众号
+    link: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6f00c918-7a62-47b5-8e8a-9578acfb171c/d6e5b45e-7775-4e31-a941-c30fa127d0cb.jpg
+    icon: icon-wechat-2-line
+    color: "#1AAD19"
+  #- name: Twitter
+  #  link: https://twitter.com/YunYouJun
+  #  icon: icon-twitter-line
+  #  color: "#1da1f2"
+  # - name: Telegram
+  #   link: https://t.me/yunyoujun_group
+  #   icon: icon-telegram-line
+  #   color: "#0088CC"
+  #- name: Telegram Channel
+  #  link: https://t.me/elpsycn
+    # icon: icon-telegram-fill
+  #  icon: icon-telegram-line
+  #  color: "#0088CC"
+  - name: E-Mail
+    link: mailto:jobhunry@gmail.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  #- name: Travelling
+  #  link: https://travellings.link
+  #  icon: icon-train-line
+  #  color: black
+# pjax:
+#   enable: true
+notice:
+  enable: true
+  content: Thanks for playing my game.
+  
