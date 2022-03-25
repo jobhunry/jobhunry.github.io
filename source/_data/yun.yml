@@ -1,0 +1,8 @@
+
+
+bg_image:
+  enable: true
+  url: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6f00c918-7a62-47b5-8e8a-9578acfb171c/0784a723-98bb-4e30-8e24-8bae39ca218b.jpg
+  # dark:
+  # blur: 30px # 设置背景模糊程度
+  opacity: 0.8

@@ -13,6 +13,9 @@ avatar:
 
 post_asset_folder: true
     
+wordcloud:
+  enable: true
+
 reward:
   enable: true
   comment: 你的支持，我的动力！
@@ -34,13 +37,25 @@ comment:
   candidates:
     - waline
     # - giscus
- # tips:
-    #- 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/YunYouJun/yunyoujun.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
+  tips:
+    - 如果您有任何关于博客内容的相关讨论，欢迎留言与我交流。
 
-
+waline:
+  enable: true
+  serverURL: https://vercel-comment-qxo0964nq-jobhunry.vercel.app
+  visitor: true
+  comment: true
+  emoji:
+    - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/bilibili/
+    - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/weibo/
+    - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/qq/
   locale:
     placeholder: 填写邮箱，可以收到回复通知哦～
   requiredMeta: ["nick"]
+
+
+  
+
 
 github_issues:
   enable: false
@@ -68,7 +83,11 @@ giscus:
 engine_search:
   enable: false
 
-
+bg_image:
+  enable: true
+  url: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6f00c918-7a62-47b5-8e8a-9578acfb171c/69a884dd-5e3d-4325-b4d0-c78924a6d00e.jpg
+  # blur: 30px # 设置背景模糊程度
+  opacity: 0.8
 
 google_analytics:
   enable: true
@@ -86,31 +105,11 @@ albums:
 girls:
   enable: true
 
-tags:
-  动画: crimson
-  漫画: orange
-  Parcel: "#21374b"
-  学习: saddlebrown
-  MAD: crimson
-  教程: royalblue
-  笔记: dimgray
-  分享: "#0078e7"
-  随笔: mediumpurple
-  Blender: "#d04d2d"
-  Linux: "#2577b1"
-  中传: "#ccb44b"
-  部落: "#DD306A"
-  科幻: midnightblue
-  蚂蚁森林: "#54a892"
-
-categories:
-  云游的小视频: "#FB7299"
-
-#pages:
-#  - name: 我的小伙伴们
-#    url: /links/
-#    icon: icon-genderless-line
-#    color: dodgerblue
+pages:
+  - name: 我的小伙伴们
+    url: https://blog.csdn.net
+    icon: icon-genderless-line
+    color: dodgerblue
 #  - name: 喜欢的女孩子
 #    url: /girls/
 #    icon: icon-women-line
@@ -147,6 +146,11 @@ say:
   hitokoto:
     enable: false
 
+wordcount:
+  enable: true
+  count: true
+  time: true
+  
 social:
   - name: RSS
     # set rss in your root config
@@ -213,4 +217,6 @@ social:
 notice:
   enable: true
   content: Thanks for playing my game.
-  
+ 
+cdn:
+  pre: https://cdn.jsdelivr.net/gh/jobhunry/jobhunry.github.io@latest
