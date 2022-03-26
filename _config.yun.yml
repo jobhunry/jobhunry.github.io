@@ -122,7 +122,7 @@ google_adsense:
 
 post_edit:
   enable: true
-  url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
+  url: https://github.com/jobhunry/jobhunry.github.io/tree/hexo/source/
 
 albums:
   enable: true
