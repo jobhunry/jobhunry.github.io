@@ -79,10 +79,20 @@ giscus:
   emit-metadata: 0
   theme: light
 
-
 engine_search:
   enable: false
 
+# If you want to use it, you need config algolia appID in _config.yml!!!
+# https://github.com/oncletom/hexo-algolia
+algolia_search:
+  enable: true
+  hits:
+    per_page: 10
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "我们没有找到任何搜索结果: ${query}"
+    hits_stats: "找到${hits}条结果（用时${time} ms）"
+  
 bg_image:
   enable: true
   url: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6f00c918-7a62-47b5-8e8a-9578acfb171c/69a884dd-5e3d-4325-b4d0-c78924a6d00e.jpg

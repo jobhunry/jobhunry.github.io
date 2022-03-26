@@ -95,6 +95,14 @@ include:
 exclude:
 ignore:
 
+# https://github.com/oncletom/hexo-algolia
+algolia:
+  applicationID: "A8ZPP9D4AD"
+  apiKey: "f5b9244cebef05120787a1777bdb26ac"
+  adminApikey: "1485ead840180cc03dc31e99925f661c"
+  indexName: "hexo"
+  chunkSize: 5000
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
