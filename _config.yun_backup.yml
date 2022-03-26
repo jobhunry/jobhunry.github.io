@@ -70,22 +70,6 @@ giscus:
   emit-metadata: 0
   theme: light
 
-banner:
-  enable: true
-  title: 科技伴随生活
-  border: true
-  cloud:
-    enable: true
-    color: "white"
-  go_down:
-    enable: true
-    icon: icon-arrow-down-s-line
-    
-bg_image:
-  enable: true
-  url: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6f00c918-7a62-47b5-8e8a-9578acfb171c/69a884dd-5e3d-4325-b4d0-c78924a6d00e.jpg
-  # blur: 30px # 设置背景模糊程度
-  opacity: 0.8
 #footer:
  # since: 2016
 #  icon:
@@ -130,17 +114,35 @@ albums:
 girls:
   enable: true
 
+tags:
+  动画: crimson
+  漫画: orange
+  Parcel: "#21374b"
+  学习: saddlebrown
+  MAD: crimson
+  教程: royalblue
+  笔记: dimgray
+  分享: "#0078e7"
+  随笔: mediumpurple
+  Blender: "#d04d2d"
+  Linux: "#2577b1"
+  中传: "#ccb44b"
+  部落: "#DD306A"
+  科幻: midnightblue
+  蚂蚁森林: "#54a892"
 
+categories:
+  云游的小视频: "#FB7299"
 
 pages:
   - name: 我的小伙伴们
-    url: https://blog.csdn.net
+    url: /links/
     icon: icon-genderless-line
     color: dodgerblue
-#  - name: 喜欢的女孩子
-#    url: /girls/
-#    icon: icon-women-line
-#    color: hotpink
+  - name: 喜欢的女孩子
+    url: /girls/
+    icon: icon-women-line
+    color: hotpink
 
 menu:
   custom:
@@ -165,23 +167,6 @@ say:
   hitokoto:
     enable: false
 
-tags:
-  学习笔记: crimson
-  blog: orange
-#  Parcel: "#21374b"
-#  学习: saddlebrown
-#  MAD: crimson
-  教程: royalblue
-  笔记: dimgray
-#  分享: "#0078e7"
-#  随笔: mediumpurple
-#  Blender: "#d04d2d"
- # Linux: "#2577b1"
- # 中传: "#ccb44b"
-#  部落: "#DD306A"
-#  科幻: midnightblue
-#  蚂蚁森林: "#54a892"
-  
 social:
   - name: RSS
     # set rss in your root config
@@ -189,62 +174,59 @@ social:
     link: /atom.xml # config.feed.path
     icon: icon-rss-line
     color: orange
-  - name: QQ 群 
+  - name: QQ 群 1050458482
     # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
-    link: https://qm.qq.com/cgi-bin/qm/qr?k=r1KjcVM58n1gL8Tmr0o-s_IZG9F0R21s&jump_from=webapi
+    link: https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi
     icon: icon-qq-line
     color: "#12B7F5"
- # - name: GitHub
- #   link: https://github.com/YunYouJun
- #   icon: icon-github-line
- #   color: "#6e5494"
- # - name: 微博
- #   link: https://weibo.com/jizhideyunyoujun
- #   icon: icon-weibo-line
- #   color: "#E6162D"
- # - name: 豆瓣
- #   link: https://www.douban.com/people/yunyoujun/
- #   icon: icon-douban-line
- #   color: "#007722"
- # - name: 网易云音乐
- #   link: https://music.163.com/#/user/home?id=247102977
- #   icon: icon-netease-cloud-music-line
- #   color: "#C20C0C"
- # - name: 知乎
- #   link: https://www.zhihu.com/people/yunyoujun/
- #   icon: icon-zhihu-line
- #   color: "#0084FF"
- # - name: 哔哩哔哩
- #   link: https://space.bilibili.com/1579790
- #   icon: icon-bilibili-line
- #   color: "#FF8EB3"
+  - name: GitHub
+    link: https://github.com/YunYouJun
+    icon: icon-github-line
+    color: "#6e5494"
+  - name: 微博
+    link: https://weibo.com/jizhideyunyoujun
+    icon: icon-weibo-line
+    color: "#E6162D"
+  - name: 豆瓣
+    link: https://www.douban.com/people/yunyoujun/
+    icon: icon-douban-line
+    color: "#007722"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=247102977
+    icon: icon-netease-cloud-music-line
+    color: "#C20C0C"
+  - name: 知乎
+    link: https://www.zhihu.com/people/yunyoujun/
+    icon: icon-zhihu-line
+    color: "#0084FF"
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/1579790
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
   - name: 微信公众号
-    link: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6f00c918-7a62-47b5-8e8a-9578acfb171c/d6e5b45e-7775-4e31-a941-c30fa127d0cb.jpg
+    link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
     icon: icon-wechat-2-line
     color: "#1AAD19"
-  #- name: Twitter
-  #  link: https://twitter.com/YunYouJun
-  #  icon: icon-twitter-line
-  #  color: "#1da1f2"
+  - name: Twitter
+    link: https://twitter.com/YunYouJun
+    icon: icon-twitter-line
+    color: "#1da1f2"
   # - name: Telegram
   #   link: https://t.me/yunyoujun_group
   #   icon: icon-telegram-line
   #   color: "#0088CC"
-  #- name: Telegram Channel
-  #  link: https://t.me/elpsycn
+  - name: Telegram Channel
+    link: https://t.me/elpsycn
     # icon: icon-telegram-fill
-  #  icon: icon-telegram-line
-  #  color: "#0088CC"
+    icon: icon-telegram-line
+    color: "#0088CC"
   - name: E-Mail
-    link: mailto:jobhunry@gmail.com
+    link: mailto:me@yunyoujun.cn
     icon: icon-mail-line
     color: "#8E71C1"
-  #- name: Travelling
-  #  link: https://travellings.link
-  #  icon: icon-train-line
-  #  color: black
+  - name: Travelling
+    link: https://travellings.link
+    icon: icon-train-line
+    color: black
 # pjax:
 #   enable: true
-notice:
-  enable: true
-  content: Thanks for playing my game.
