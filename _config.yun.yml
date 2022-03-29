@@ -172,7 +172,7 @@ tags:
 #  学习: saddlebrown
 #  MAD: crimson
   教程: royalblue
-  笔记: dimgray
+  羊毛: dimgray
 #  分享: "#0078e7"
 #  随笔: mediumpurple
 #  Blender: "#d04d2d"
@@ -257,3 +257,4 @@ busuanzi:
 notice:
   enable: true
   content: Thanks for playing my game.
+  
