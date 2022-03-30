@@ -1,0 +1,22 @@
+unable to access
+
+解决方式一：
+删除 .deploy_git/
+执行
+git config --global core.autocrlf false
+hexo clean && hexo g && hexo d
+方式二：
+修改deploy:
+type: git
+
+repo: https://github.com/yourname/yourname.github.io.git -> git@github.com:a956551943/weixiaohui.github.io.git
+
+branch: master
+
+——————————————————————————————————————————————————————
+
+export HEXO_ALGOLIA_INDEXING_KEY=f5b9244cebef05120787a1777bdb26ac
+hexo algolia
+git add -A
+git commit -m "update"
+git push origin hexo

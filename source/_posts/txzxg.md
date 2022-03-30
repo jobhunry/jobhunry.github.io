@@ -50,13 +50,30 @@ date: 2022-03-29 11:19:00
 
 # 安装小黄鸟
 
-*本文演示的小黄鸟版本号为HttpCanary_v3.3.6*
+*本文演示的小黄鸟版本号为HttpCanary_v3.3.6* </br>ps:QQ群内有两个版本，选择任意一个你可以用的版本即可，界面大同小异，功能一样！
 <div class="warning">
 
 > 安装后进入小黄鸟，依次配置VPN→安装证书→移动证书到CA列表，由于手机未root，移动证书这一步会报错，直接**跳过**就好。
 
+PS：高版本的小黄鸟貌似没有着一步，忽略就好。
+
 </div>
 
+<div class="yellow">
+
+> 各个手机安装证书的方式不一样，有的会提示 **请进入设置安装CA证书** 此时就需要你根据你的机型去[百度](www.baidu.com) 证书方式。</br>
+
+主要方式大同效益：导出证书→进入设置搜索CA证书安装→找到刚才导出的CA证书点击安装即可
+
+证书格式有两个，选择 **xxx.pem**
+
+</div>
+
+<div class="waring">
+
+> 如果你开始抓包，提示没有网络，则证明CA证书没有安装成功!
+
+</div>
 
 ![upload successful](/images/pasted-12.png)
 
@@ -102,7 +119,9 @@ date: 2022-03-29 11:19:00
 
 ![upload successful](/images/pasted-23.png)
 打开刚才安装的RE文件管理器，找到刚才所导入的问价，路径为 **/sdcard/VMOSfiletransferstation**
-将其移动到 **/etc/security/cacerts/** 内</br>OK，配置证书完成!
+将其移动到 **/etc/security/cacert/** 和 **/etc/security/cacerts/** 内</br>
+如果只有 **/etc/security/cacert/** 那就只放在这里面就行了</br>
+OK，配置证书完成!
 
 # 开始抓包
 ## 公众号抓包
@@ -171,11 +190,7 @@ date: 2022-03-29 11:19:00
 
 <div class="warning">
 
-> 为何一起整理为  </br>
+> 最后一起整理为  </br>
 `openid=xx&fskey=yy&wzq_qlskey=zz&wzq_qluin=aa`
 
 </div>
-
-
-
-
