@@ -121,7 +121,7 @@ google_adsense:
   client: ca-pub-2245427233262012
 
 post_edit:
-  enable: true
+  enable: false
   url: https://github.com/jobhunry/jobhunry.github.io/tree/hexo/source/
 
 albums:

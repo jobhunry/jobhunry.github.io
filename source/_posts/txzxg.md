@@ -4,7 +4,6 @@ tags:
   - 教程
 categories:
   - 羊毛
-password: nicejob
 date: 2022-03-29 11:19:00
 ---
 # 前言
@@ -192,5 +191,10 @@ OK，配置证书完成!
 
 > 最后一起整理为  </br>
 `openid=xx&fskey=yy&wzq_qlskey=zz&wzq_qluin=aa`
+
+</div>
+<div class="warning">
+
+> 转载请注明出处，谢谢！
 
 </div>

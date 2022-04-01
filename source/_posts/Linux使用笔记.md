@@ -2,7 +2,7 @@ title: Linux使用笔记
 author: lvlvu
 tags:
   - 学习笔记
-categories: []
+categories: [学习笔记]
 date: 2022-03-26 11:33:00
 ---
 >以下为本人Linux学习过程中所常用到的命令以及问题解决方案，乱序！

@@ -139,6 +139,8 @@ deploy:
   repo: https://github.com/jobhunry/jobhunry.github.io.git
   branch: master
 
+baidu_push: true
+
 encrypt: # hexo-blog-encrypt
   abstract: 这里有东西被加密了，需要输入密码查看哦。
   message: 您好, 这里需要密码.
