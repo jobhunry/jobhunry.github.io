@@ -2,7 +2,8 @@ title: 羊毛合集
 author: lvlvu
 tags:
   - 羊毛
-categories: [羊毛]
+categories:
+  - 羊毛
 date: 2022-03-27 10:11:00
 ---
 
