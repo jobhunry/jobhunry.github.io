@@ -117,7 +117,7 @@ PS：高版本的小黄鸟貌似没有着一步，忽略就好。
 
 
 ![upload successful](/images/pasted-23.png)
-打开刚才安装的RE文件管理器，找到刚才所导入的问价，路径为 **/sdcard/VMOSfiletransferstation**
+打开刚才安装的RE文件管理器，找到刚才所导入的文件，路径为 **/sdcard/VMOSfiletransferstation**
 将其移动到 **/etc/security/cacert/** 和 **/etc/security/cacerts/** 内</br>
 如果只有 **/etc/security/cacert/** 那就只放在这里面就行了</br>
 OK，配置证书完成!
