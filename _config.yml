@@ -136,7 +136,7 @@ aplayer:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/jobhunry/jobhunry.github.io.git
+  repo: git@github.com:jobhunry/jobhunry.github.io.git
   branch: master
 
 baidu_push: true
